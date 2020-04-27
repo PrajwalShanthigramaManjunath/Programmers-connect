@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://prajwalshanthigrama:Ishita007@programmersconnect-egzc7.mongodb.net/test?retryWrites=true&w=majority",
+  "jwttoken": "mytoken"
+}
