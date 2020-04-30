@@ -12,6 +12,7 @@ const { check, validationResult } = require('express-validator');
 //@access Public
 
 router.get('/', auth, async (req, res) => {
+  console.log('Inside autth');
   try {
     const user = await User.findById(req.user.id).select('-password');
     res.json(user);
