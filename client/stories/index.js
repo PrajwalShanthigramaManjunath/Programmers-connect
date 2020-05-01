@@ -2,7 +2,6 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import { MemoryRouter } from 'react-router';
-import Login from '../src/components/auth/Login';
 
 storiesOf('Home Page/auth', module)
   .addDecorator((story) => (
