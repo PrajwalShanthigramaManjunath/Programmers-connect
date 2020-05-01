@@ -33,6 +33,7 @@ const PostItem = ({
             type='button'
             className='btn btn-light'
           >
+            <div> like </div>
             <i className='fas fa-thumbs-up' />{' '}
             <span>{likes.length > 0 && <span>{likes.length}</span>}</span>
           </button>
@@ -41,6 +42,8 @@ const PostItem = ({
             type='button'
             className='btn btn-light'
           >
+            {' '}
+            <div>Remove Like</div>
             <i className='fas fa-thumbs-down' />
           </button>
           <Link to={`/posts/${_id}`} className='btn btn-primary'>
@@ -55,6 +58,8 @@ const PostItem = ({
               type='button'
               className='btn btn-danger'
             >
+              {' '}
+              <div>Delete Post</div>
               <i className='fas fa-times' />
             </button>
           )}
