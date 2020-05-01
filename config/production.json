@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://prajwalshanthigrama:Ishita007@programmersconnect-egzc7.mongodb.net/test?retryWrites=true&w=majority",
+  "jwttoken": "mytoken",
+  "githubToken": "608c201302e8efcd5c0e",
+  "githubSecret": "87b5eb137a42264d68f698a099540833a998f3fc"
+}
