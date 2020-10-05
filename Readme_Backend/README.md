@@ -18,7 +18,7 @@ Name: Prajwal Shanthigrama Manjunatha
 Since React has been integrated with Express backend, "npm run dev" command on root directory will run both front-end server (on PORT-3000) and backend server (nodemon) (on PORT 5000) at the same time. It can be run separately too without changing the root directory, after cloning, 'npm run client' command on root folder will run the front end server and 'npm run server' on root folder will run the backend server(nodemon).
 
 
-Describe getting/installing the software, perhaps:
+getting/installing the software:
 
 ```bat
 git clone https://github.com/PrajwalShanthigramaManjunath/programmers-connect.git
@@ -76,7 +76,7 @@ Simultaneous Postman testing while coding, could not test using other tools beca
 
 ## Integrating with React App
 
-Describe how you integrated your React app with the API. Perhaps link to the React App repo and give an example of an API call from React App. For example: 
+Example: 
 
 ~~~Javascript
 //@route GET api/profile/me
